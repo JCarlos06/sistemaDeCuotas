@@ -35,30 +35,32 @@
       </nav>
 
       <main class="main__container">
-        <div class="nav__container">
-            <div class="label__container">
-                <div><h2>Añadir Cuotas</h2></div>
-                <div>
-                Menu/Añadir cuotas</div>
+        <form class="form__container">
+          <div class="caja__add">
+            <div class="c11">
+              <h2>Añadir Cuotas</h2>
+              <p class="c12">Menu/Añadir cuotas</p>
+            </div>
+              <a href="·">Guardar</a>
+          </div>
 
-                <div> <a href="·">Guarda</a></div>
+          <div class="caja c2">
+
+                <div class="c21">
+                  <p><label for="name">Buscar Clientes</label></p>
+                </div>
+                <div clas="c22">
+                  <input type="text" id="name" placeholder="Nombre y Apellido">
+                </div>
+                <div class="c23"><a href="·">Guardar</a></div>
+
+
             </div>
 
-            <div class="caja 3">
-                <label for="name">Buscar Cliente</label>
-                <div>
-                    <input type="text" id="name" placeholder="Nombre y Apellido">
-                </div>
-                <div>
-                    <a href="·">Guarda</a>
-                </div>
-
-
-            </div>
-
-            <div class="caja 4">
-                <span><label for="cuota" >Buscar Cuota</label></span>
-                <div>
+            <div class="caja c3">
+                
+                <div class="c31">
+                    <p><label for="cuota" >Buscar Cuota</label></p>
                     <select>
                         <option value="numero">Seleccione la cuota</option>
                     </select>
@@ -66,23 +68,21 @@
 
             </div>
 
-            <div class="caja 5">
-                <span><label for="boleta">Numero de Boleta</label></span>
+            <div class="caja c4">
+              <div class="c41">
+                <p><label for="boleta">Numero de Boleta</label></p>
                 <input id="boleta" placeholder="Insertar Nº de boleta">
-
-                <span<label for="operacion">Numero de operacion</label>
+              </div>
+              <div class="c42">
+                <p><span<label for="operacion">Numero de operacion</label></p>
                 <input placeholder="Insertar Nº de la operaciòn">
+              </div>
 
-            </div>
-            
-        </div>
-
-
-
-
+            </div>    
+      </div>
+        </form>
       </main>
- 
-
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
