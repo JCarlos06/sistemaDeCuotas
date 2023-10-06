@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Sistema de cuotas</title>
+  </head>
+  <body>
+    <section class="system__container">
+      <nav class="nav__container">
+        <picture class="image__container">
+          <img src="img/quevedologohorizon.png" alt="logo" class="logo" />
+        </picture>
+        <div class="nav__items">
+          <a class="nav__item" href="#">
+            <i class="fas fa-user-plus item__icon"></i>
+            <p class="item__title">Añadir Cliente</p>
+          </a>
+          <a class="nav__item nav__item--active" href="#">
+            <i class="fas fa-users item__icon"></i>
+            <p class="item__title">Clientes</p>
+          </a>
+          <a class="nav__item" href="#">
+            <i class="fas fa-tasks item__icon"></i>
+            <p class="item__title">Etapas</p>
+          </a>
+        </div>
+      </nav>
+
+      <main class="main__container">
+        <div class="nav__container">
+            <div class="label__container">
+                <div><h2>Añadir Cuotas</h2></div>
+                <div>
+                Menu/Añadir cuotas</div>
+
+                <div> <a href="·">Guarda</a></div>
+            </div>
+
+            <div class="caja 3">
+                <label for="name">Buscar Cliente</label>
+                <div>
+                    <input type="text" id="name" placeholder="Nombre y Apellido">
+                </div>
+                <div>
+                    <a href="·">Guarda</a>
+                </div>
+
+
+            </div>
+
+            <div class="caja 4">
+                <span><label for="cuota" >Buscar Cuota</label></span>
+                <div>
+                    <select>
+                        <option value="numero">Seleccione la cuota</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="caja 5">
+                <span><label for="boleta">Numero de Boleta</label></span>
+                <input id="boleta" placeholder="Insertar Nº de boleta">
+
+                <span<label for="operacion">Numero de operacion</label>
+                <input placeholder="Insertar Nº de la operaciòn">
+
+            </div>
+            
+        </div>
+
+
+
+
+      </main>
+ 
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;0,800;1,100;1,200;1,300;1,400;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: #fff;
+    --color-secondary: #858585;
+
+    --color-nav-main: #F7F7F7;
+
+    --color-button-1: #184383;
+    --color-button-add: #02A5A5;
+    --color-waring: #E84A4D;
+    --color-success: #28C794;
+    --color-border: #D6D6D6;
+    --color-search: #ADADAD;
+
+    --color-font-text: #000;
+
+    --font-size-text: 16px;
+
+    --box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.system__container {
+    display: grid;
+    grid-template-columns: 20% 80%;  
+    max-width: 97%;
+    max-height: 95%;
+    width: 97%;
+    height: 95%;
+    overflow: hidden;
+    /* outline: 1px solid #E84A4D; */
+}
+
+/* NavBar */
+
+.nav__container{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    /* outline: 1px solid #E84A4D; */
+    padding-top: 1em;
+    /* background: var(--color-nav-main); */
+}
+
+.image__container{
+    display: grid;
+    place-items: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 100%;
+}
+
+.nav__items {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav__item{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-size: .7em;
+    padding: 0 1em 0 1em;
+}
+
+
+.nav__item--active{
+    background: var(--color-button-1);
+    color: var(--color-primary);
+    box-shadow: var(--box-shadow);
+    border-radius: .5em;
+}
+
+/* Main */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+  
+  }
+  
+  .label__container{
+    display: flex;
+  }
+  
+  .form__section {
+    width: 60%;
+  }
+  
+  .form__section-title {
+    text-align: start;
+    margin-top: 1.4em;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  .label__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    margin-top: 1em;
+  }
+  .caja1{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    width: 100%;
+    overflow-y: auto;
+
+  }
