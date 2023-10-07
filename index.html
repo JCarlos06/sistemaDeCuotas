@@ -37,49 +37,69 @@
       <main class="main__container">
         <form class="form__container">
           <div class="caja__add">
-            <div class="c11">
+            <div class="title_cuota">
               <h2>Añadir Cuotas</h2>
-              <p class="c12">Menu/Añadir cuotas</p>
+              <p>Menu/Añadir cuotas</p>
             </div>
-              <a href="·">Guardar</a>
+            <div class="caja__add_button_Guardar">
+              <i class="fas fa-save"></i>
+              <a class="search" href="#">Guardar</a>
+            </div>
           </div>
 
-          <div class="caja c2">
-
-                <div class="c21">
-                  <p><label for="name">Buscar Clientes</label></p>
-                </div>
-                <div clas="c22">
-                  <input type="text" id="name" placeholder="Nombre y Apellido">
-                </div>
-                <div class="c23"><a href="·">Guardar</a></div>
-
-
+          <div class="caja__cliente">
+            <div class="title_cliente">
+              <label class="caption" for="name">Buscar Clientes</label>
             </div>
 
-            <div class="caja c3">
-                
-                <div class="c31">
-                    <p><label for="cuota" >Buscar Cuota</label></p>
-                    <select>
-                        <option value="numero">Seleccione la cuota</option>
-                    </select>
-                </div>
-
+            <div class="caja_button">
+              <div>
+                <input
+                  class="input_cliente container"
+                  type="text"
+                  id="name"
+                  placeholder="Nombre y Apellido"
+                />
+              </div>
+              <div class="caja_add_button_buscarcliente">
+                <i class="fa fa-search"></i>
+                <a class="search" href="#">Buscar Cliente</a>
+              </div>
             </div>
+          </div>
 
-            <div class="caja c4">
-              <div class="c41">
-                <p><label for="boleta">Numero de Boleta</label></p>
-                <input id="boleta" placeholder="Insertar Nº de boleta">
-              </div>
-              <div class="c42">
-                <p><span<label for="operacion">Numero de operacion</label></p>
-                <input placeholder="Insertar Nº de la operaciòn">
-              </div>
+          <div class="caja_cuota">
+            <div class="title_buscarcuota">
+              <label class="caption" for="cuota">Buscar Cuota</label>
+              <select class="option_cuota input">
+                <option value="numero">Seleccione la cuota</option>
+              </select>
+            </div>
+          </div>
 
-            </div>    
-      </div>
+          <div class="caja__boleta">
+            <div class="title_boleta">
+              <p>
+                <label class="caption" for="boleta">Numero de Boleta</label>
+              </p>
+              <input
+                class="input_boleta input"
+                id="boleta"
+                placeholder="Insertar Nº de boleta"
+              />
+            </div>
+            <div class="title_opracion">
+              <p>
+                <label class="caption" for="operacion"
+                  >Numero de operacion</label
+                >
+              </p>
+              <input
+                class="input_operacion input"
+                placeholder="Insertar Nº de la operaciòn"
+              />
+            </div>
+          </div>
         </form>
       </main>
     </section>

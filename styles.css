@@ -86,6 +86,7 @@ body {
     border-radius: .5em;
 }
 
+
 /* Main */
 
   .caja__add {
@@ -93,97 +94,119 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  
 
-  /* .label__containe{
+  .title_cuota{
     display: flex;
-    justify-content: center;
-    align-content: center;
-  } */
-/*   
-  .caja {
+    align-items: center;
+    gap: 2em;
+    
+  }
+
+  .caja__add_button_Guardar {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background: var(--color-button-add);
+    padding: 0.5em 0.8em;
+    color: var(--color-primary);
+    border-radius: .5em;
+  }
+
+.caja_cuota{
+  display: flex;
+}
+
+  .caja__cliente{
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
-    gap: 10px;
-    align-content: center;
-    border-radius: 600px;
-    margin-top: 1.4em;
-    font-size: 12px;
+    justify-content: space-evenly;
+    width: 100%;
+
   }
-  .c1 {
-    align-items: center;
+
+
+  .title_cliente{
+    font-size: 12px;
+    color: var(--color-font-text);
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
   }
-  .c11{
-    width: 166px;
-    height: 36px;
-    width: 500;
-    line-height: 36px;
+
+  .caja_button{
+    display: grid;
+    grid-template-columns: 70% 30%; 
+    justify-content: space-between;
   }
 
-  .c12{
-    width: 146px;
-    height: 24px;
-    gap: 2px;
-  }
-  .c13{
-    width: 119px;
-    height: 40px;
-    top:67px;
-    left:1445px;
-    border-radius: 8px;
-    padding: 8px,16px,8px,16px;
-    gap: 8px;
-    background-color: #02A5A5;
-  }
 
-  .c2{
+
+  .caja_add_button_buscarcliente{
     display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    overflow-y: auto;
-    margin:5px;
-    gap:100px;
+    align-items: center;
+    background: var(--color-button-add);
+    color: var(--color-primary);
+    border-radius: .5em;
+    gap: 1em;
+    font-size: 1em;
+    width: 11em;
+    height: 2.5em;
+    margin: 14px;
 
   }
 
-  .c21{
-    width: 86px;
-    height: 18px;
-    left: 16px;
-    weight: 500;
-    size: 12px;
-    line-height: 18px;
-    color:#5555;
+  .search__client{
+    font-size: 1em;
+    padding: 0.21em 0.4em;
+
   }
 
-  .c22{
-    width: 732px;
-    height: 40px;
-    top: 26px;
-    border-radius: 6px;
-    padding: 8px,16px,8px,16px;
-    gap:10px;
-    color: #D6D6D6;
+
+
+  .title_buscarcuota{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 12px;
   }
 
-  .c23{
-    width: 264px;
-    height: 40px;
-    top:150px;
-    left:1156px;
-    border-radius: 8px;
-    padding: 8px,16px,8px,16px;
-    gap: 8px;
-    background-color: #02A5A5;
-  }
 
-  .c4{
+
+  .caja__boleta{
+    font-size: 12px;
     display:flex;
-    margin: 5px;
-    flex-flow: row wrap;
-
+    gap:30px;
   }
- */
 
+  .option_cuota{
+    border-radius: .5em;
+    padding: 1em;
+  }
+
+  .input{
+    font-size: 12px;
+    border-radius: .5em;
+    padding: 1em;
+    margin:10px;
+    border: 1px solid var(--color-border);
+    outline: none;
+  }
+  
+  .container{
+    font-size: 12px;
+    border-radius: .5em;
+    padding:1em;
+    margin: 15px;
+    border: 1px solid var(--color-border);
+    outline: none;
+    width: 50em;
+    height: 1em;
+    }
+
+  .search{
+    color: var(--color-primary);
+  }
+
+  .caption{
+    margin-left: 2.3em;
+  }
