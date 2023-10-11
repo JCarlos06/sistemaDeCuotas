@@ -40,11 +40,11 @@
             <div class="title_cuota">
               <h2>Añadir Cuotas</h2>
               <p>Menu/Añadir cuotas</p>
-            </div>
-            <div class="caja__add_button_Guardar">
-              <i class="fas fa-save"></i>
-              <a class="search" href="#">Guardar</a>
-            </div>
+            </div>    
+                <a href="#" class="search">
+                    <i class="fas fa-save"></i>
+                    <p class="save">Guardar</p>
+                </a>
           </div>
 
           <div class="caja__cliente">
@@ -53,17 +53,18 @@
             </div>
 
             <div class="caja_button">
-              <div>
+
                 <input
                   class="input_cliente container"
                   type="text"
                   id="name"
                   placeholder="Nombre y Apellido"
                 />
-              </div>
-              <div class="caja_add_button_buscarcliente">
-                <i class="fa fa-search"></i>
-                <a class="search" href="#">Buscar Cliente</a>
+              <div class="boton">
+                <a class="search" href="#">
+                  <i class="fa fa-search"></i>
+                  <p >Buscar Cliente</p>
+                </a>
               </div>
             </div>
           </div>
@@ -77,28 +78,43 @@
             </div>
           </div>
 
+          <div class="caja_estadoCuota">
+            <div class="title_buscarcuota">
+              <label class="caption" for="cuota">Estado de la Cuota</label>
+              <select class="option_cuota input">
+                <option value="numero">CANCELADO</option>
+              </select>
+            </div>
+          </div>
+
           <div class="caja__boleta">
             <div class="title_boleta">
-              <p>
-                <label class="caption" for="boleta">Numero de Boleta</label>
-              </p>
-              <input
+              <div><label class="caption" for="boleta">Número de Boleta</label></div>
+              <div><input
                 class="input_boleta input"
                 id="boleta"
                 placeholder="Insertar Nº de boleta"
-              />
+              /></div>
             </div>
-            <div class="title_opracion">
-              <p>
-                <label class="caption" for="operacion"
-                  >Numero de operacion</label
-                >
-              </p>
-              <input
-                class="input_operacion input"
-                placeholder="Insertar Nº de la operaciòn"
-              />
+            <div class="title_operación">
+              <div><label class="caption" for="boleta">Número de Operación </label></div>
+              <div><input
+                class="input_boleta input"
+                id="boleta"
+                placeholder="Insertar Nº de Operación"
+              /></div>
             </div>
+          </div>
+
+          <div>
+            <p><label class="caption">Entidad Financiera</label></p>
+
+            <label class="caption">BBVA</label>
+            <input type="radio">
+
+            <label class="caption">INTERBANK</label>
+            <input type="radio">
+
           </div>
         </form>
       </main>

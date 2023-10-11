@@ -110,18 +110,47 @@ body {
     padding: 0.5em 0.8em;
     color: var(--color-primary);
     border-radius: .5em;
+    transition-duration: 0ms;
+    cursor: pointer;
+  }
+
+  .caja__add_button_Guardar:hover{
+    background-color: #F7F7F7;
+    color: var(--color-button-add); 
+
   }
 
 .caja_cuota{
   display: flex;
+  width: 100%;
+
+}
+
+.caja_estadoCuota{
+  display: flex;
+  width: 100%;
+  font-family: ;
 }
 
   .caja__cliente{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     width: 100%;
 
+  }
+  .caja_add_button_buscarcliente{
+    display: flex;
+    align-items: center;
+    background: var(--color-button-add);
+    color: var(--color-primary);
+    border-radius: .5em;
+    gap: 1em;
+    font-size: 1em;
+    width: 11em;
+    height: 2.5em;
+    margin: 14px;
+    transition-duration: 0ms;
+    cursor: pointer;
   }
 
 
@@ -136,23 +165,35 @@ body {
   .caja_button{
     display: grid;
     grid-template-columns: 70% 30%; 
-    justify-content: space-between;
+    align-items: center;
   }
 
 
+  .caja_add_button_buscarcliente:hover{
+    background-color: #F7F7F7;
+    color: var(--color-button-add);
+  }
 
-  .caja_add_button_buscarcliente{
+  .search{
     display: flex;
     align-items: center;
+    justify-content: center ;
+    font-size: .8rem;
+    gap: 1em;
     background: var(--color-button-add);
     color: var(--color-primary);
     border-radius: .5em;
-    gap: 1em;
-    font-size: 1em;
-    width: 11em;
-    height: 2.5em;
-    margin: 14px;
+    padding: 0 1em;
+    cursor: pointer;
+  }
+  .search:hover {
+    background-color: #F7F7F7;
+    transition: all ease-in-out 300ms;
+    color: var(--color-button-add);
+  }
 
+  .search{
+    color: var(--color-primary);
   }
 
   .search__client{
@@ -183,6 +224,10 @@ body {
     padding: 1em;
   }
 
+  .title_boleta{
+    align-items: 15px;
+  }
+
   .input{
     font-size: 12px;
     border-radius: .5em;
@@ -199,14 +244,16 @@ body {
     margin: 15px;
     border: 1px solid var(--color-border);
     outline: none;
-    width: 50em;
-    height: 1em;
+    margin-left: 10px;
     }
 
-  .search{
-    color: var(--color-primary);
-  }
-
+  
   .caption{
     margin-left: 2.3em;
+  }
+  
+  .boton{
+    width: 13em;
+    
+    
   }
