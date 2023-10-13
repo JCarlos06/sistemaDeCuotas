@@ -29,7 +29,7 @@
           </a>
           <a class="nav__item" href="#">
             <i class="fas fa-tasks item__icon"></i>
-            <p class="item__title">Etapas</p>
+            <p class="item__titlee">Etapas</p>
           </a>
         </div>
       </nav>
@@ -73,7 +73,9 @@
             <div class="title_buscarcuota">
               <label class="caption" for="cuota">Buscar Cuota</label>
               <select class="option_cuota input">
-                <option value="numero">Seleccione la cuota</option>
+                <option value="">Seleccione la cuota</option>
+                <option value="numero">1</option>
+
               </select>
             </div>
           </div>
@@ -106,15 +108,37 @@
             </div>
           </div>
 
-          <div>
+          <div class="caja_entidad">
             <p><label class="caption">Entidad Financiera</label></p>
+          
+            <div class="radio">
+                <input type="radio" id="bbva" name="entidad" value="one">
+                <label for="bbva">BBVA</label>
+          
+                <input type="radio" id="interbank" name="entidad" value="two">
+                <label for="interbank">INTERBANK</label>
+            </div>
+          </div>
 
-            <label class="caption">BBVA</label>
-            <input type="radio">
+          <div class="caja_fechaCuota">
 
-            <label class="caption">INTERBANK</label>
-            <input type="radio">
+            <div class="title_fecha">
+              <div><label class="caption">Fecha de la Cuota</label></div>
+              <div><input class="input" placeholder="dd/mm/aa" type="datetime"></div>
+            </div>
 
+            <div class="title_fechaPago" >
+              <div><label class="caption">Fecha de Pago</label></div>
+              <div><input class="input" type="datetime" placeholder="dd/mm/aa"></div>
+            </div>
+          </div>
+
+          <div>
+            <label class="caption">Monto Apartado</label>
+
+            <div><input class="input" type="number" placeholder="S/.198.00"></div>
+
+            <idv></idv>
           </div>
         </form>
       </main>

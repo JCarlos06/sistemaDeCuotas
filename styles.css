@@ -129,7 +129,6 @@ body {
 .caja_estadoCuota{
   display: flex;
   width: 100%;
-  font-family: ;
 }
 
   .caja__cliente{
@@ -211,7 +210,12 @@ body {
     font-size: 12px;
   }
 
-
+  .title_estadocuota{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
 
   .caja__boleta{
     font-size: 12px;
@@ -250,10 +254,39 @@ body {
   
   .caption{
     margin-left: 2.3em;
+    font-size: 12px;
   }
   
   .boton{
     width: 13em;
-    
-    
+
   }
+  
+  .caja_entidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 1.2em;
+
+  }
+
+  .radio{
+    margin-left: 1.7em;
+    gap: 1em;
+    color: var(--color-search);
+  }
+
+  .caja_fechaCuota{
+    display: flex;
+    font-size: 12px;
+    gap:30px;
+  }
+
+  .title_fecha{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+
+  }
+
+
